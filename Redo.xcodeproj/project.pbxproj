@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BBA91B242ED27D1F0061F571 /* .editorconfig in Resources */ = {isa = PBXBuildFile; fileRef = BBA91B232ED27D1F0061F571 /* .editorconfig */; };
+		BBA91B282ED27E450061F571 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BBA91B272ED27E450061F571 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		BBA91B072ED27CF00061F571 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,8 @@
 		BBA91AF92ED27CEF0061F571 /* Redo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Redo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBA91B062ED27CF00061F571 /* RedoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBA91B102ED27CF00061F571 /* RedoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBA91B232ED27D1F0061F571 /* .editorconfig */ = {isa = PBXFileReference; lastKnownFileType = text; path = .editorconfig; sourceTree = "<group>"; };
+		BBA91B272ED27E450061F571 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +82,8 @@
 		BBA91AF02ED27CEF0061F571 = {
 			isa = PBXGroup;
 			children = (
+				BBA91B272ED27E450061F571 /* .gitignore */,
+				BBA91B232ED27D1F0061F571 /* .editorconfig */,
 				BBA91AFB2ED27CEF0061F571 /* Redo */,
 				BBA91B092ED27CF00061F571 /* RedoTests */,
 				BBA91B132ED27CF00061F571 /* RedoUITests */,
@@ -212,6 +221,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBA91B242ED27D1F0061F571 /* .editorconfig in Resources */,
+				BBA91B282ED27E450061F571 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
